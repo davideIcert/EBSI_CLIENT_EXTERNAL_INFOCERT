@@ -1,5 +1,8 @@
-#
-Documento con metadati stringa
+# api Track&Trace
+## api cli url
+https://hub.ebsi.eu/tools/cli/upcoming-apis/create-document
+
+## primo Documento creato
 create document
 {
   "documentHash": "0x7a379cd4ea7830db87263c4fa28c1e8501019414eb5dde433d152bab41446c0e",
@@ -7,7 +10,7 @@ create document
   "timestamp": 0
 }
 
-DOCUMERNTO CON METADATI COMPLESSI ( CODIFICATI BASE64, vuole stringa...)
+## secondo DOCUMERNTO creato, CON METADATI COMPLESSI ( CODIFICATI BASE64, vuole stringa...)
 metadati: {"dataWithQualifiedTimestamps":{"data":{"nome": "davide","cognome": "porro"},"qualifiedTimestamp": "xxxyzzzttqrrr"}}
 metadati base64 encoded: eyJkYXRhV2l0aFF1YWxpZmllZFRpbWVzdGFtcHMiOnsiZGF0YSI6eyJub21lIjogImRhdmlkZSIsImNvZ25vbWUiOiAicG9ycm8ifSwicXVhbGlmaWVkVGltZXN0YW1wIjogInh4eHl6enp0dHFycnIifX0=
 
@@ -18,7 +21,7 @@ create document
   "timestamp": 0
 }
 
-aggiunta di evento a documento: 
+## aggiunta di evento a documento: 
 id evento: 0x781aa2dfff40a7455facf47dce1c6c9e33c51b9f18cc36cbac26b0d835465269
 metadati: {"dataWithQualifiedTimestamps":{"data":{"nome": "giuseppe","cognome": "garibaldi"},"qualifiedTimestamp": "xxxyzzzttfffr"}}
 metadati base 64 encoded: eyJkYXRhV2l0aFF1YWxpZmllZFRpbWVzdGFtcHMiOnsiZGF0YSI6eyJub21lIjogImdpdXNlcHBlIiwiY29nbm9tZSI6ICJnYXJpYmFsZGkifSwicXVhbGlmaWVkVGltZXN0YW1wIjogInh4eHl6enp0dGZmZnIifX0=
@@ -30,7 +33,7 @@ Write Event
   "sender": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA"
 }
 
-per avere documento e eventi:
+## per avere documento e eventi:
 tnt get /documents/0x836e05361b113f486f1a46b964c4e21bb421375ec2f3556d111fa66267d599d4/events
 
 Data:
