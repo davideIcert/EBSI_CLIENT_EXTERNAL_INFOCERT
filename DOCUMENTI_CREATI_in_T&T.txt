@@ -1,0 +1,6 @@
+create document
+{
+  "documentHash": "0x7a379cd4ea7830db87263c4fa28c1e8501019414eb5dde433d152bab41446c0e",
+  "didEbsiCreator": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA",
+  "timestamp": 0
+}

@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+!.ci/**/.env
+local
+reports
+*.log
+CHIAVI_PRIVATE_DAVIDE
+test-scripts
