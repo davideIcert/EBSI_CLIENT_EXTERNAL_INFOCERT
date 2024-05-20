@@ -10,22 +10,10 @@
             "name": "Debug Current File",
             "autoAttachChildProcesses": true,
             "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-            "program": "${workspaceRoot}/test-scripts/node_modules/vitest/vitest.mjs",
+            "program": "${workspaceRoot}/node_modules/vitest/vitest.mjs",
             "args": ["run", "${relativeFile}"],
             "smartStep": true,
             "console": "integratedTerminal"
           },
-
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "VITEST Debug Current Test File",
-            "autoAttachChildProcesses": true,
-            "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-            "program": "${workspaceRoot}/test-scripts/node_modules/vitest/vitest.mjs",
-            "args": ["run", "${relativeFile}"],
-            "smartStep": true,
-            "console": "integratedTerminal"
-          }
     ]
 }

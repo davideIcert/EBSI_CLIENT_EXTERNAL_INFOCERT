@@ -5,5 +5,4 @@ dist
 local
 reports
 *.log
-CHIAVI_PRIVATE_DAVIDE
 test-scripts
