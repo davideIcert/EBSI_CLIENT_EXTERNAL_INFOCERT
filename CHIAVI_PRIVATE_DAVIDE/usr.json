@@ -1,0 +1,39 @@
+{
+    "keys": {
+      "ES256K": {
+        "id": "B1j4_YigHlSA8COHBiIngdvmDZz-Oh2wpNzHqPvrDWs",
+        "kid": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA#B1j4_YigHlSA8COHBiIngdvmDZz-Oh2wpNzHqPvrDWs",
+        "privateKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+          "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ",
+          "d": "xTBnlsucxB4UN3ThUsnjOWuoe4yu6R1hgGJmZ5ZIP44"
+        },
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+          "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ"
+        },
+        "privateKeyEncryptionJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+          "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ",
+          "d": "xTBnlsucxB4UN3ThUsnjOWuoe4yu6R1hgGJmZ5ZIP44"
+        },
+        "publicKeyEncryptionJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+          "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ"
+        }
+      }
+    },
+    "privateKeyHex": "0xc5306796cb9cc41e143774e152c9e3396ba87b8caee91d618062666796483f8e",
+    "publicKeyHex": "0x04973dc538aa8ae5f3de0adbcd8fcb09ec2fa4cb361647cffdfb5002e79b958b290ec0dda210bffb3c8aef109d745cbeb1cce8c6939cda7271365376008f35d804",
+    "address": "0xB0FD211ba85A3052a66883794B1c6a1c9042Da75",
+    "did": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA",
+    "didVersion": 1
+  }

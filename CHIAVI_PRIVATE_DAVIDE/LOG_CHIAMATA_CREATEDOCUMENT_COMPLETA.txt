@@ -1,0 +1,543 @@
+Host-002:test-scripts dporro$ yarn start
+yarn run v1.22.19
+$ node dist/cli
+==> using user ES256K did1 c5306796cb9cc41e143774e152c9e3396ba87b8caee91d618062666796483f8e did:ebsi:zfEmvX5twhXjQJiCWsukvQA
+{
+  "keys": {
+    "ES256K": {
+      "id": "B1j4_YigHlSA8COHBiIngdvmDZz-Oh2wpNzHqPvrDWs",
+      "kid": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA#B1j4_YigHlSA8COHBiIngdvmDZz-Oh2wpNzHqPvrDWs",
+      "privateKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ",
+        "d": "xTBnlsucxB4UN3ThUsnjOWuoe4yu6R1hgGJmZ5ZIP44"
+      },
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ"
+      },
+      "privateKeyEncryptionJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ",
+        "d": "xTBnlsucxB4UN3ThUsnjOWuoe4yu6R1hgGJmZ5ZIP44"
+      },
+      "publicKeyEncryptionJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ"
+      }
+    }
+  },
+  "privateKeyHex": "0xc5306796cb9cc41e143774e152c9e3396ba87b8caee91d618062666796483f8e",
+  "publicKeyHex": "0x04973dc538aa8ae5f3de0adbcd8fcb09ec2fa4cb361647cffdfb5002e79b958b290ec0dda210bffb3c8aef109d745cbeb1cce8c6939cda7271365376008f35d804",
+  "address": "0xB0FD211ba85A3052a66883794B1c6a1c9042Da75",
+  "did": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA",
+  "didVersion": 1
+}
+==>  using user ES256 did1 869176bf92b63061b59a26eff6370d26125720844987a60537dee3bff08740fb did:ebsi:zfEmvX5twhXjQJiCWsukvQA
+{
+  "keys": {
+    "ES256K": {
+      "id": "B1j4_YigHlSA8COHBiIngdvmDZz-Oh2wpNzHqPvrDWs",
+      "kid": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA#B1j4_YigHlSA8COHBiIngdvmDZz-Oh2wpNzHqPvrDWs",
+      "privateKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ",
+        "d": "xTBnlsucxB4UN3ThUsnjOWuoe4yu6R1hgGJmZ5ZIP44"
+      },
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ"
+      },
+      "privateKeyEncryptionJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ",
+        "d": "xTBnlsucxB4UN3ThUsnjOWuoe4yu6R1hgGJmZ5ZIP44"
+      },
+      "publicKeyEncryptionJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "lz3FOKqK5fPeCtvNj8sJ7C-kyzYWR8_9-1AC55uViyk",
+        "y": "DsDdohC_-zyK7xCddFy-sczoxpOc2nJxNlN2AI812AQ"
+      }
+    },
+    "ES256": {
+      "id": "yzVc8uD5KS3GCtzNuVFL2A8Qzk29dHh4M-FDYtQ8tRg",
+      "kid": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA#yzVc8uD5KS3GCtzNuVFL2A8Qzk29dHh4M-FDYtQ8tRg",
+      "privateKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "jJXC89Sj0RRriF-5nVntJufmAQMTRHa9HwLBYef8WFY",
+        "y": "TV1Q6vHPMWgYr0O82EJMZXwPjOxA9qgagvNoPGgdI3U",
+        "d": "hpF2v5K2MGG1mibv9jcNJhJXIIRJh6YFN97jv_CHQPs"
+      },
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "jJXC89Sj0RRriF-5nVntJufmAQMTRHa9HwLBYef8WFY",
+        "y": "TV1Q6vHPMWgYr0O82EJMZXwPjOxA9qgagvNoPGgdI3U"
+      },
+      "privateKeyEncryptionJwk": {
+        "kty": "EC",
+        "x": "RZZ0XuDeyoFcRcVP37TvqoRhplbDDHkWtV9EfDP0TE8",
+        "y": "Piww5Xh0WfRTG9RWglCDk6k7nEMyaHXSU8xFkRsagNU",
+        "crv": "P-256",
+        "d": "ciYLCTSMFlMQMfV5EyTYvIaO9mFAiVJBk5aHopoM5oQ"
+      },
+      "publicKeyEncryptionJwk": {
+        "kty": "EC",
+        "x": "RZZ0XuDeyoFcRcVP37TvqoRhplbDDHkWtV9EfDP0TE8",
+        "y": "Piww5Xh0WfRTG9RWglCDk6k7nEMyaHXSU8xFkRsagNU",
+        "crv": "P-256"
+      }
+    }
+  },
+  "privateKeyHex": "0xc5306796cb9cc41e143774e152c9e3396ba87b8caee91d618062666796483f8e",
+  "publicKeyHex": "0x04973dc538aa8ae5f3de0adbcd8fcb09ec2fa4cb361647cffdfb5002e79b958b290ec0dda210bffb3c8aef109d745cbeb1cce8c6939cda7271365376008f35d804",
+  "address": "0xB0FD211ba85A3052a66883794B1c6a1c9042Da75",
+  "did": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA",
+  "didVersion": 1
+}
+==> env pilot
+Value saved in 'domain':
+https://api-pilot.ebsi.eu
+Environment pilot loaded
+{
+  "domain": "https://api-pilot.ebsi.eu",
+  "contractAddresses": {
+    "timestamp": "0x8b7ddD28FdE20080A337Bff5badCa043163Bc3a3",
+    "did": "0x76C8190D7422e5fa2A0190Bc2313bab0b2afEC78",
+    "tar": "0x35fE6e9be02Bc93381117e6c424B5688894B0639",
+    "tir": "0x5C87455c82617579A10AD39C2DB3e60E846E7266",
+    "tsr": "0xF3aFc480b171CB8c2D89c3753FF46104d7011B07",
+    "tpr": "0x81872fccf3AEDD94C00E643bC2967Bd7aC91CFEB",
+    "tnt": "0x5a2413Aee431Fa836905EF682D851e1Ba6CedbC4"
+  },
+  "urls": [
+    "https://api-pilot.ebsi.eu/timestamp/v4",
+    "https://api-pilot.ebsi.eu/track-and-trace/v1",
+    "https://api-pilot.ebsi.eu/ledger/v4",
+    "https://api-pilot.ebsi.eu/authorisation/v4",
+    "https://api-pilot.ebsi.eu/did-registry/v5",
+    "https://api-pilot.ebsi.eu/trusted-apps-registry/v4",
+    "https://api-pilot.ebsi.eu/trusted-issuers-registry/v5",
+    "https://api-pilot.ebsi.eu/trusted-schemas-registry/v3",
+    "https://api-pilot.ebsi.eu/trusted-policies-registry/v3",
+    "https://api-pilot.ebsi.eu/conformance/v3"
+  ],
+  "env": "pilot"
+}
+==> tnt head /accesses?creator= user.did
+HEAD https://api-pilot.ebsi.eu/track-and-trace/v1/accesses?creator=did:ebsi:zfEmvX5twhXjQJiCWsukvQA 
+{
+  "headers": {}
+}
+
+767 milliseconds
+Response HTTP Status 204
+{
+  "date": "Fri, 24 May 2024 15:48:00 GMT",
+  "connection": "close",
+  "access-control-allow-origin": "*",
+  "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+  "cross-origin-opener-policy": "same-origin",
+  "cross-origin-resource-policy": "same-origin",
+  "ebsi-image-tag": "f7410a4ba0df4c58160180d46543bdcc5014b30d",
+  "origin-agent-cluster": "?1",
+  "referrer-policy": "origin-when-cross-origin",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-permitted-cross-domain-policies": "none",
+  "x-xss-protection": "0"
+}
+Data:
+
+==> resAuthTNT: authorisation auth tnt_create_presentation ES256
+==> authorisation get /.well-known/openid-configuration
+GET https://api-pilot.ebsi.eu/authorisation/v4/.well-known/openid-configuration 
+{
+  "headers": {}
+}
+
+160 milliseconds
+Response HTTP Status 200
+{
+  "date": "Fri, 24 May 2024 15:48:24 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "1098",
+  "connection": "close",
+  "access-control-allow-origin": "*",
+  "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+  "cross-origin-opener-policy": "same-origin",
+  "cross-origin-resource-policy": "same-origin",
+  "ebsi-image-tag": "f7410a4ba0df4c58160180d46543bdcc5014b30d",
+  "origin-agent-cluster": "?1",
+  "referrer-policy": "origin-when-cross-origin",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-permitted-cross-domain-policies": "none",
+  "x-xss-protection": "0"
+}
+Data:
+{
+  "issuer": "https://api-pilot.ebsi.eu/authorisation/v4",
+  "authorization_endpoint": "https://api-pilot.ebsi.eu/authorisation/v4/authorize",
+  "token_endpoint": "https://api-pilot.ebsi.eu/authorisation/v4/token",
+  "presentation_definition_endpoint": "https://api-pilot.ebsi.eu/authorisation/v4/presentation-definitions",
+  "jwks_uri": "https://api-pilot.ebsi.eu/authorisation/v4/jwks",
+  "scopes_supported": [
+    "openid",
+    "didr_invite",
+    "didr_write",
+    "tir_invite",
+    "tir_write",
+    "timestamp_write",
+    "tnt_authorise",
+    "tnt_create",
+    "tnt_write"
+  ],
+  "response_types_supported": [
+    "token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "none"
+  ],
+  "subject_syntax_types_supported": [
+    "did:ebsi",
+    "did:key"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "private_key_jwt"
+  ],
+  "vp_formats_supported": {
+    "jwt_vp": {
+      "alg_values_supported": [
+        "ES256"
+      ]
+    },
+    "jwt_vp_json": {
+      "alg_values_supported": [
+        "ES256"
+      ]
+    },
+    "jwt_vc": {
+      "alg_values_supported": [
+        "ES256"
+      ]
+    },
+    "jwt_vc_json": {
+      "alg_values_supported": [
+        "ES256"
+      ]
+    }
+  },
+  "grant_types_supported": [
+    "vp_token"
+  ],
+  "subject_trust_frameworks_supported": [
+    "ebsi"
+  ],
+  "id_token_types_supported": [
+    "subject_signed_id_token"
+  ]
+}
+==> compute createPresentationJwt empty ES256 https://api-pilot.ebsi.eu/authorisation/v4
+{
+  "jwtVp": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRpZDplYnNpOnpmRW12WDV0d2hYalFKaUNXc3VrdlFBI3l6VmM4dUQ1S1MzR0N0ek51VkZMMkE4UXprMjlkSGg0TS1GRFl0UTh0UmcifQ.eyJqdGkiOiJ1cm46ZGlkOmUxY2Q0ZDU3LTA2MTUtNDlhZC04MDEyLTE5YWY0YWMxOGFlYSIsInN1YiI6ImRpZDplYnNpOnpmRW12WDV0d2hYalFKaUNXc3VrdlFBIiwiaXNzIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJuYmYiOjE3MTY1NjU2MDQsImV4cCI6MTcxNjU2NjYwNCwiaWF0IjoxNzE2NTY1NzA0LCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJub25jZSI6Ijc2MWI5YzAyLWZjM2EtNDUyMi1hMTM2LTlkMWEwOWY3NTg0YiIsInZwIjp7ImlkIjoidXJuOmRpZDplMWNkNGQ1Ny0wNjE1LTQ5YWQtODAxMi0xOWFmNGFjMThhZWEiLCJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iXSwiaG9sZGVyIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W119fQ.lGrY_IJ3vviykMBXyxff8FRJOUujuAbMH-msQmvuEGEtw6ymt9A0GvNf48yLFZYHmPN65987gIWTNu-5AfU6Ng",
+  "payload": {
+    "id": "urn:did:e1cd4d57-0615-49ad-8012-19af4ac18aea",
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiablePresentation"
+    ],
+    "holder": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA",
+    "verifiableCredential": []
+  }
+}
+==> authorisation token tnt_create_presentation eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRpZDplYnNpOnpmRW12WDV0d2hYalFKaUNXc3VrdlFBI3l6VmM4dUQ1S1MzR0N0ek51VkZMMkE4UXprMjlkSGg0TS1GRFl0UTh0UmcifQ.eyJqdGkiOiJ1cm46ZGlkOmUxY2Q0ZDU3LTA2MTUtNDlhZC04MDEyLTE5YWY0YWMxOGFlYSIsInN1YiI6ImRpZDplYnNpOnpmRW12WDV0d2hYalFKaUNXc3VrdlFBIiwiaXNzIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJuYmYiOjE3MTY1NjU2MDQsImV4cCI6MTcxNjU2NjYwNCwiaWF0IjoxNzE2NTY1NzA0LCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJub25jZSI6Ijc2MWI5YzAyLWZjM2EtNDUyMi1hMTM2LTlkMWEwOWY3NTg0YiIsInZwIjp7ImlkIjoidXJuOmRpZDplMWNkNGQ1Ny0wNjE1LTQ5YWQtODAxMi0xOWFmNGFjMThhZWEiLCJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iXSwiaG9sZGVyIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W119fQ.lGrY_IJ3vviykMBXyxff8FRJOUujuAbMH-msQmvuEGEtw6ymt9A0GvNf48yLFZYHmPN65987gIWTNu-5AfU6Ng
+POST https://api-pilot.ebsi.eu/authorisation/v4/token 
+{
+  "headers": {
+    "Content-Type": "application/x-www-form-urlencoded"
+  }
+}
+Data:
+grant_type=vp_token&scope=openid+tnt_create&vp_token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRpZDplYnNpOnpmRW12WDV0d2hYalFKaUNXc3VrdlFBI3l6VmM4dUQ1S1MzR0N0ek51VkZMMkE4UXprMjlkSGg0TS1GRFl0UTh0UmcifQ.eyJqdGkiOiJ1cm46ZGlkOmUxY2Q0ZDU3LTA2MTUtNDlhZC04MDEyLTE5YWY0YWMxOGFlYSIsInN1YiI6ImRpZDplYnNpOnpmRW12WDV0d2hYalFKaUNXc3VrdlFBIiwiaXNzIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJuYmYiOjE3MTY1NjU2MDQsImV4cCI6MTcxNjU2NjYwNCwiaWF0IjoxNzE2NTY1NzA0LCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJub25jZSI6Ijc2MWI5YzAyLWZjM2EtNDUyMi1hMTM2LTlkMWEwOWY3NTg0YiIsInZwIjp7ImlkIjoidXJuOmRpZDplMWNkNGQ1Ny0wNjE1LTQ5YWQtODAxMi0xOWFmNGFjMThhZWEiLCJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iXSwiaG9sZGVyIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W119fQ.lGrY_IJ3vviykMBXyxff8FRJOUujuAbMH-msQmvuEGEtw6ymt9A0GvNf48yLFZYHmPN65987gIWTNu-5AfU6Ng&presentation_submission=%7B%22id%22%3A%225efc67db-cb71-4788-846b-3051a90cdc68%22%2C%22definition_id%22%3A%22tnt_create_presentation%22%2C%22descriptor_map%22%3A%5B%5D%7D
+
+3146 milliseconds
+Response HTTP Status 200
+{
+  "date": "Fri, 24 May 2024 15:48:27 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "1168",
+  "connection": "close",
+  "access-control-allow-origin": "*",
+  "cache-control": "no-store",
+  "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+  "cross-origin-opener-policy": "same-origin",
+  "cross-origin-resource-policy": "same-origin",
+  "ebsi-image-tag": "f7410a4ba0df4c58160180d46543bdcc5014b30d",
+  "origin-agent-cluster": "?1",
+  "pragma": "no-cache",
+  "referrer-policy": "origin-when-cross-origin",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-permitted-cross-domain-policies": "none",
+  "x-xss-protection": "0"
+}
+Data:
+{
+  "access_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJzY3AiOiJvcGVuaWQgdG50X2NyZWF0ZSIsImp0aSI6IjM1MGU2ZjUyLTQ0NjEtNDZiZC04ZTdkLWMzZTcyYjc2NTZkOCIsImlzcyI6Imh0dHBzOi8vYXBpLXBpbG90LmVic2kuZXUvYXV0aG9yaXNhdGlvbi92NCJ9.eSdDM9Q5pJZIGQx-_OD7tHtSKbQ5HqMaAIZCe9dtMNFeYQLx1CPgDlce6r8L0qpbJWn0nkJyi-rApUxmO_sasg",
+  "token_type": "Bearer",
+  "expires_in": 7200,
+  "scope": "openid tnt_create",
+  "id_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJkaWQ6ZWJzaTp6ZkVtdlg1dHdoWGpRSmlDV3N1a3ZRQSIsImp0aSI6IjBiN2Q0ZmU3LTMzYWYtNGU5Ny04NmU2LTUwZGRlNDM0NGEzNCIsIm5vbmNlIjoiNzYxYjljMDItZmMzYS00NTIyLWExMzYtOWQxYTA5Zjc1ODRiIiwiaXNzIjoiaHR0cHM6Ly9hcGktcGlsb3QuZWJzaS5ldS9hdXRob3Jpc2F0aW9uL3Y0In0.4GsUuycBFWNz1ERnFEYeeGet_C_7PrxNWWUPeywBaIVdlAakdwdMbmXW5LAwR-FAu4No3kG7EuW8vePUEGBv9A"
+}
+Value saved in 'resAuthTNT':
+{
+  "access_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJzY3AiOiJvcGVuaWQgdG50X2NyZWF0ZSIsImp0aSI6IjM1MGU2ZjUyLTQ0NjEtNDZiZC04ZTdkLWMzZTcyYjc2NTZkOCIsImlzcyI6Imh0dHBzOi8vYXBpLXBpbG90LmVic2kuZXUvYXV0aG9yaXNhdGlvbi92NCJ9.eSdDM9Q5pJZIGQx-_OD7tHtSKbQ5HqMaAIZCe9dtMNFeYQLx1CPgDlce6r8L0qpbJWn0nkJyi-rApUxmO_sasg",
+  "token_type": "Bearer",
+  "expires_in": 7200,
+  "scope": "openid tnt_create",
+  "id_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJkaWQ6ZWJzaTp6ZkVtdlg1dHdoWGpRSmlDV3N1a3ZRQSIsImp0aSI6IjBiN2Q0ZmU3LTMzYWYtNGU5Ny04NmU2LTUwZGRlNDM0NGEzNCIsIm5vbmNlIjoiNzYxYjljMDItZmMzYS00NTIyLWExMzYtOWQxYTA5Zjc1ODRiIiwiaXNzIjoiaHR0cHM6Ly9hcGktcGlsb3QuZWJzaS5ldS9hdXRob3Jpc2F0aW9uL3Y0In0.4GsUuycBFWNz1ERnFEYeeGet_C_7PrxNWWUPeywBaIVdlAakdwdMbmXW5LAwR-FAu4No3kG7EuW8vePUEGBv9A"
+}
+==> using token resAuthTNT.access_token
+eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJzY3AiOiJvcGVuaWQgdG50X2NyZWF0ZSIsImp0aSI6IjM1MGU2ZjUyLTQ0NjEtNDZiZC04ZTdkLWMzZTcyYjc2NTZkOCIsImlzcyI6Imh0dHBzOi8vYXBpLXBpbG90LmVic2kuZXUvYXV0aG9yaXNhdGlvbi92NCJ9.eSdDM9Q5pJZIGQx-_OD7tHtSKbQ5HqMaAIZCe9dtMNFeYQLx1CPgDlce6r8L0qpbJWn0nkJyi-rApUxmO_sasg
+==> tnt createDocument 0x447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde42 eyJkYXRhV2l0aFF1YWxpZmllZFRpbWVzdGFtcHMiOnsiZGF0YSI6eyJub21lIjogImRhdmlkZSIsImNvZ25vbWUiOiAicG9ycm8ifSwicXVhbGlmaWVkVGltZXN0YW1wIjogInh4eHl6enp0dHFycnIifX0=  user.did
+==> tnt build-createDocument 0x447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde42 eyJkYXRhV2l0aFF1YWxpZmllZFRpbWVzdGFtcHMiOnsiZGF0YSI6eyJub21lIjogImRhdmlkZSIsImNvZ25vbWUiOiAicG9ycm8ifSwicXVhbGlmaWVkVGltZXN0YW1wIjogInh4eHl6enp0dHFycnIifX0= user.did
+POST https://api-pilot.ebsi.eu/track-and-trace/v1/jsonrpc 
+{
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJzY3AiOiJvcGVuaWQgdG50X2NyZWF0ZSIsImp0aSI6IjM1MGU2ZjUyLTQ0NjEtNDZiZC04ZTdkLWMzZTcyYjc2NTZkOCIsImlzcyI6Imh0dHBzOi8vYXBpLXBpbG90LmVic2kuZXUvYXV0aG9yaXNhdGlvbi92NCJ9.eSdDM9Q5pJZIGQx-_OD7tHtSKbQ5HqMaAIZCe9dtMNFeYQLx1CPgDlce6r8L0qpbJWn0nkJyi-rApUxmO_sasg"
+  }
+}
+Data:
+{
+  "jsonrpc": "2.0",
+  "method": "createDocument",
+  "params": [
+    {
+      "from": "0xB0FD211ba85A3052a66883794B1c6a1c9042Da75",
+      "documentHash": "0x447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde42",
+      "documentMetadata": "eyJkYXRhV2l0aFF1YWxpZmllZFRpbWVzdGFtcHMiOnsiZGF0YSI6eyJub21lIjogImRhdmlkZSIsImNvZ25vbWUiOiAicG9ycm8ifSwicXVhbGlmaWVkVGltZXN0YW1wIjogInh4eHl6enp0dHFycnIifX0=",
+      "didEbsiCreator": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA"
+    }
+  ],
+  "id": 948
+}
+
+4158 milliseconds
+Response HTTP Status 200
+{
+  "date": "Fri, 24 May 2024 15:50:43 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "950",
+  "connection": "close",
+  "access-control-allow-origin": "*",
+  "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+  "cross-origin-opener-policy": "same-origin",
+  "cross-origin-resource-policy": "same-origin",
+  "ebsi-image-tag": "f7410a4ba0df4c58160180d46543bdcc5014b30d",
+  "origin-agent-cluster": "?1",
+  "referrer-policy": "origin-when-cross-origin",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-permitted-cross-domain-policies": "none",
+  "x-xss-protection": "0"
+}
+Data:
+{
+  "jsonrpc": "2.0",
+  "id": 948,
+  "result": {
+    "from": "0xB0FD211ba85A3052a66883794B1c6a1c9042Da75",
+    "to": "0x5a2413Aee431Fa836905EF682D851e1Ba6CedbC4",
+    "data": "0xda62b06b447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141",
+    "value": "0x0",
+    "nonce": "0x0d",
+    "chainId": "0x1823",
+    "gasLimit": "0x0a3666",
+    "gasPrice": "0x0"
+  }
+}
+create document
+{
+  "documentHash": "0x447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde42",
+  "didEbsiCreator": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA",
+  "timestamp": 0
+}
+==> compute signTransaction {"from":"0xB0FD211ba85A3052a66883794B1c6a1c9042Da75","to":"0x5a2413Aee431Fa836905EF682D851e1Ba6CedbC4","data":"0xda62b06b447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141","value":"0x0","nonce":"0x0d","chainId":"0x1823","gasLimit":"0x0a3666","gasPrice":"0x0"}
+0xf901c80d80830a3666945a2413aee431fa836905ef682d851e1ba6cedbc480b90164da62b06b447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141823069a018fb77c565705a2babd8f991d06f0e8d52ff77cebb673591c81f23dbc35c93a6a0323ebccd1fb391fc9cbc4d62238325c5c3fd6c99fe94fdbdfe5528b3590b6d36
+==> tnt sendSignedTransaction {"from":"0xB0FD211ba85A3052a66883794B1c6a1c9042Da75","to":"0x5a2413Aee431Fa836905EF682D851e1Ba6CedbC4","data":"0xda62b06b447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141","value":"0x0","nonce":"0x0d","chainId":"0x1823","gasLimit":"0x0a3666","gasPrice":"0x0"} 0xf901c80d80830a3666945a2413aee431fa836905ef682d851e1ba6cedbc480b90164da62b06b447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141823069a018fb77c565705a2babd8f991d06f0e8d52ff77cebb673591c81f23dbc35c93a6a0323ebccd1fb391fc9cbc4d62238325c5c3fd6c99fe94fdbdfe5528b3590b6d36
+POST https://api-pilot.ebsi.eu/track-and-trace/v1/jsonrpc 
+{
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJzY3AiOiJvcGVuaWQgdG50X2NyZWF0ZSIsImp0aSI6IjM1MGU2ZjUyLTQ0NjEtNDZiZC04ZTdkLWMzZTcyYjc2NTZkOCIsImlzcyI6Imh0dHBzOi8vYXBpLXBpbG90LmVic2kuZXUvYXV0aG9yaXNhdGlvbi92NCJ9.eSdDM9Q5pJZIGQx-_OD7tHtSKbQ5HqMaAIZCe9dtMNFeYQLx1CPgDlce6r8L0qpbJWn0nkJyi-rApUxmO_sasg"
+  }
+}
+Data:
+{
+  "jsonrpc": "2.0",
+  "method": "sendSignedTransaction",
+  "params": [
+    {
+      "protocol": "eth",
+      "unsignedTransaction": {
+        "from": "0xB0FD211ba85A3052a66883794B1c6a1c9042Da75",
+        "to": "0x5a2413Aee431Fa836905EF682D851e1Ba6CedbC4",
+        "data": "0xda62b06b447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141",
+        "value": "0x0",
+        "nonce": "0x0d",
+        "chainId": "0x1823",
+        "gasLimit": "0x0a3666",
+        "gasPrice": "0x0"
+      },
+      "r": "0x18fb77c565705a2babd8f991d06f0e8d52ff77cebb673591c81f23dbc35c93a6",
+      "s": "0x323ebccd1fb391fc9cbc4d62238325c5c3fd6c99fe94fdbdfe5528b3590b6d36",
+      "v": "0x3069",
+      "signedRawTransaction": "0xf901c80d80830a3666945a2413aee431fa836905ef682d851e1ba6cedbc480b90164da62b06b447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141823069a018fb77c565705a2babd8f991d06f0e8d52ff77cebb673591c81f23dbc35c93a6a0323ebccd1fb391fc9cbc4d62238325c5c3fd6c99fe94fdbdfe5528b3590b6d36"
+    }
+  ],
+  "id": 882
+}
+
+418 milliseconds
+Response HTTP Status 200
+{
+  "date": "Fri, 24 May 2024 15:50:43 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "104",
+  "connection": "close",
+  "access-control-allow-origin": "*",
+  "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+  "cross-origin-opener-policy": "same-origin",
+  "cross-origin-resource-policy": "same-origin",
+  "ebsi-image-tag": "f7410a4ba0df4c58160180d46543bdcc5014b30d",
+  "origin-agent-cluster": "?1",
+  "referrer-policy": "origin-when-cross-origin",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-permitted-cross-domain-policies": "none",
+  "x-xss-protection": "0"
+}
+Data:
+{
+  "jsonrpc": "2.0",
+  "id": 882,
+  "result": "0x5aea28c3132330e3cdec18bf4bfb98d5488c71a096b2da764cc9d1d389ce046a"
+}
+Waiting to be mined...
+==> ledger getTransactionReceipt 0x5aea28c3132330e3cdec18bf4bfb98d5488c71a096b2da764cc9d1d389ce046a
+POST https://api-pilot.ebsi.eu/ledger/v4/blockchains/besu 
+{
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IldqQVB6c0RyYmtWQU0xYkhpdVh5dDlPRmdQZVRSRGpLVjNncGg1RURWUGMiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3MTY1NjU3MDcsImV4cCI6MTcxNjU3MjkwNywic3ViIjoiZGlkOmVic2k6emZFbXZYNXR3aFhqUUppQ1dzdWt2UUEiLCJhdWQiOiJodHRwczovL2FwaS1waWxvdC5lYnNpLmV1L2F1dGhvcmlzYXRpb24vdjQiLCJzY3AiOiJvcGVuaWQgdG50X2NyZWF0ZSIsImp0aSI6IjM1MGU2ZjUyLTQ0NjEtNDZiZC04ZTdkLWMzZTcyYjc2NTZkOCIsImlzcyI6Imh0dHBzOi8vYXBpLXBpbG90LmVic2kuZXUvYXV0aG9yaXNhdGlvbi92NCJ9.eSdDM9Q5pJZIGQx-_OD7tHtSKbQ5HqMaAIZCe9dtMNFeYQLx1CPgDlce6r8L0qpbJWn0nkJyi-rApUxmO_sasg"
+  }
+}
+Data:
+{
+  "jsonrpc": "2.0",
+  "method": "eth_getTransactionReceipt",
+  "params": [
+    "0x5aea28c3132330e3cdec18bf4bfb98d5488c71a096b2da764cc9d1d389ce046a"
+  ],
+  "id": 893
+}
+
+1625 milliseconds
+Response HTTP Status 200
+{
+  "date": "Fri, 24 May 2024 15:50:50 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "2318",
+  "connection": "close",
+  "access-control-allow-origin": "*",
+  "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+  "cross-origin-opener-policy": "same-origin",
+  "cross-origin-resource-policy": "same-origin",
+  "origin-agent-cluster": "?1",
+  "referrer-policy": "origin-when-cross-origin",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-permitted-cross-domain-policies": "none",
+  "x-xss-protection": "0"
+}
+Data:
+{
+  "jsonrpc": "2.0",
+  "id": 893,
+  "result": {
+    "blockHash": "0xdd7dd79b8d8b1907557841b099b331a41c20ec8579b07978d7f934274d3af250",
+    "blockNumber": "0x5687ea",
+    "contractAddress": null,
+    "cumulativeGasUsed": "0x6ed94",
+    "from": "0xb0fd211ba85a3052a66883794b1c6a1c9042da75",
+    "gasUsed": "0x6ed94",
+    "effectiveGasPrice": "0x0",
+    "logs": [
+      {
+        "address": "0x5a2413aee431fa836905ef682d851e1ba6cedbc4",
+        "topics": [
+          "0xb75b480756ee26d33fa45d0e786559258f778d9eab5d12b3d4d684d830370f87"
+        ],
+        "data": "0x447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde4200000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000006650b755000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005687ea000000000000000000000000000000000000000000000000000000000000009c65794a6b5958526856326c3061464631595778705a6d6c6c5a4652706257567a6447467463484d694f6e73695a4746305953493665794a756232316c496a6f67496d5268646d6c6b5a534973496d4e765a323576625755694f69416963473979636d3869665377696358566862476c6d6157566b56476c745a584e3059573177496a6f67496e683465486c36656e703064484679636e49696658303d0000000000000000000000000000000000000000000000000000000000000000000000206469643a656273693a7a66456d765835747768586a514a69435773756b765141",
+        "blockNumber": "0x5687ea",
+        "transactionHash": "0x5aea28c3132330e3cdec18bf4bfb98d5488c71a096b2da764cc9d1d389ce046a",
+        "transactionIndex": "0x0",
+        "blockHash": "0xdd7dd79b8d8b1907557841b099b331a41c20ec8579b07978d7f934274d3af250",
+        "logIndex": "0x0",
+        "removed": false
+      }
+    ],
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000008000000000000400000000000000",
+    "status": "0x1",
+    "to": "0x5a2413aee431fa836905ef682d851e1ba6cedbc4",
+    "transactionHash": "0x5aea28c3132330e3cdec18bf4bfb98d5488c71a096b2da764cc9d1d389ce046a",
+    "transactionIndex": "0x0",
+    "type": "0x0"
+  }
+}
+==> view transactionInfo
+create document
+{
+  "documentHash": "0x447e9c2b8d631c5296d12b9cb2c57b6ab5bc17ded80472a7f77ecfab731cde42",
+  "didEbsiCreator": "did:ebsi:zfEmvX5twhXjQJiCWsukvQA",
+  "timestamp": 0
+}
+==> 
